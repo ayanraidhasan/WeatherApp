@@ -2,10 +2,6 @@
 
 A modern, feature-rich weather forecast application built with Python Flask, REST APIs, and SQLite. Get real-time weather data and 5-day forecasts for any city worldwide.
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![Flask](https://img.shields.io/badge/flask-3.0.0-green.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 ## Features
 
 - **Real-time Weather Data**: Get current weather conditions for any city
