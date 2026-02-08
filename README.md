@@ -1,4 +1,4 @@
-# 🌤️ Weather Forecast App
+# Weather Forecast App
 
 A modern, feature-rich weather forecast application built with Python Flask, REST APIs, and SQLite. Get real-time weather data and 5-day forecasts for any city worldwide.
 
@@ -6,7 +6,7 @@ A modern, feature-rich weather forecast application built with Python Flask, RES
 ![Flask](https://img.shields.io/badge/flask-3.0.0-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## ✨ Features
+## Features
 
 - **Real-time Weather Data**: Get current weather conditions for any city
 - **5-Day Forecast**: View upcoming weather predictions
@@ -16,7 +16,7 @@ A modern, feature-rich weather forecast application built with Python Flask, RES
 - **JSON Data Processing**: Handles and parses weather data efficiently
 - **SQLite Database**: Stores search history for easy reference
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Backend**: Python, Flask
 - **API**: OpenWeatherMap REST API
@@ -25,13 +25,13 @@ A modern, feature-rich weather forecast application built with Python Flask, RES
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **HTTP Requests**: Python Requests library
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - pip (Python package installer)
 - OpenWeatherMap API key (free tier available)
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -76,7 +76,7 @@ A modern, feature-rich weather forecast application built with Python Flask, RES
    - Open `app.py`
    - Replace `'your_api_key_here'` with your actual API key on line 10
 
-## 🎯 Usage
+## Usage
 
 1. **Run the application**
    ```bash
@@ -92,7 +92,7 @@ A modern, feature-rich weather forecast application built with Python Flask, RES
    - Click "Search" to view current weather and 5-day forecast
    - Check the "Recent Searches" section to see your search history
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 weather-forecast-app/
@@ -108,7 +108,7 @@ weather-forecast-app/
 └── .gitignore            # Git ignore file
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Get Weather Data
 - **URL**: `/api/weather`
@@ -121,7 +121,7 @@ weather-forecast-app/
 - **Method**: `GET`
 - **Response**: JSON array of recent searches
 
-## 🗄️ Database Schema
+## Database Schema
 
 ```sql
 CREATE TABLE weather_history (
@@ -138,7 +138,7 @@ CREATE TABLE weather_history (
 );
 ```
 
-## 🌟 Features Breakdown
+## Features Breakdown
 
 ### Current Weather Display
 - Temperature (Celsius)
@@ -160,7 +160,7 @@ CREATE TABLE weather_history (
 - Shows temperature and conditions
 - Timestamp for each search
 
-## 🎨 Customization
+## Customization
 
 You can customize the app by:
 - Changing the color scheme in `templates/index.html` (CSS section)
@@ -168,7 +168,7 @@ You can customize the app by:
 - Adjusting forecast days displayed
 - Adding more weather parameters
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Problem**: API key error
 - **Solution**: Make sure you've activated your API key on OpenWeatherMap (can take a few minutes)
@@ -178,36 +178,3 @@ You can customize the app by:
 
 **Problem**: Database error
 - **Solution**: Delete `weather.db` and restart the app to recreate the database
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-## 👨‍💻 Author
-
-Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- Weather data provided by [OpenWeatherMap](https://openweathermap.org/)
-- Icons from OpenWeatherMap
-- Flask framework by Pallets Projects
-
-## 📸 Screenshots
-
-### Main Interface
-![Weather App Screenshot]
-(Add your screenshot here)
-
-### Mobile View
-![Mobile Screenshot]
-(Add your screenshot here)
-
----
-
-⭐ If you found this project helpful, please give it a star!
